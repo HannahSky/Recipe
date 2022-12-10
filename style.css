@@ -1,0 +1,929 @@
+*{
+    color:#0D0D0D;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Montserrat Regular', 'Montserrat Bold','Montserrat Italic','Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgba(122, 191, 191, .5);
+    color: #0D0D0D;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #F2F2F2;
+}
+
+menu{
+    color: #EB5428;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (min-width: 414px){
+    
+    body{
+        width: 414px;
+    }
+
+    main{
+        background-color: white;
+    }
+
+    p{
+        font-family: 'Montserrat', regular;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 8px;
+    }
+
+    h1{
+        padding-top: 140px;
+        font-family:'Bebas Neue';
+        Font-weight: bold;
+        font-size: 40px;
+        transform: translateY(20px);
+    }
+
+    header svg{
+        padding: 30px;
+        padding-bottom: 0;
+    }
+
+    menu{
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    .hide{
+        color:  #F2F2F2;
+        background-color: #F2F2F2;
+    }
+
+    nav ul{
+        color: #EB5428;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    ul li{
+        text-align: center;
+    }
+
+    li a{
+        font-size: 20px;
+        color: #EB5428;
+        text-decoration: none;
+    }
+
+    #tacos{
+       width: 100%;
+       height: 100%;
+    }
+
+    #info p{
+        padding-top: 10px;
+    }
+
+    #detail dl{
+        padding: 0%;
+        margin: 0%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    #detail dt{
+        grid-column: 1/3; 
+        text-align: left;
+        margin-left: 10px;
+        padding:0;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    #detail dd{
+        display: inline-block;
+        font-family: 'Montserrat';
+        margin-left: 0px;
+        padding-right: 85px;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    #detail h2{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #ingredients h2{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #ingredients li{
+        font-family: 'Montserrat';
+        font-size: 16px;
+        padding-bottom: 15px;
+        text-align: left;
+        margin-left: 20px;
+        list-style-type: square;
+    }
+
+    #direction h2{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #direction li{
+        text-align: left;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        padding: 10px;
+        margin-left: 25px;
+        padding-bottom: 15px;
+    }
+
+
+    section{
+        background-color: white;
+        color: #0D0D0D;
+    }
+
+    #food{
+        background-color: white;
+        position: absolute;
+        top: 50px;
+        height: 30px;
+        transform: translateY(-75px);
+    }
+
+    #menu h2{
+        transform: translate(5px, 50px);
+    }
+
+    #food img{
+        width: 10%;
+        height: 10%;
+    }
+    
+    aside{
+        display: block;
+        text-align: left;
+        background-color:#7ABFBF;
+    }
+
+    .menuinfo{
+        background-color: #7ABFBF;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 414px;
+    }
+
+    .menuinfo img{
+        margin-left: 10px;        
+        width:50%;
+        height:80%;
+    }
+
+    .menuinfo h3{
+        font-size: 25px;
+        text-align: left;
+        padding-left: 15px;
+        transform: translateY(20px);
+    }
+
+    .menuinfo dl{ /*come back to this section to fix*/
+        font-size: 25px;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .menuinfo dt{
+        font-size: 16px;
+        font-family: 'Montserrat';
+    }
+
+    .menuinfo dd{
+        font-size: 16px;
+        font-family: 'Montserrat';
+        font-weight: bold;
+    }
+
+    aside h2{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .description{
+        text-align: left;
+        transform: translate(-70px, -15px);
+    }
+
+    .description h3{
+        padding-bottom: 20px;
+    }
+
+    .odd{
+        transform: translateX(-90px)
+    }
+
+    .stars{
+        transform: translateX(100px);
+    }
+
+    #social menu{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    menu li{
+        text-align: center;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .move svg{
+        padding: 30px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    #menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 100px;
+    }
+
+    #hamburger{
+        transform: translate(-100px, 10px);
+    }
+
+    #logo{
+        transform: translate(-50px, 10px);
+    }
+
+    #avatar{
+        transform: translate(160px, -2945px);
+    }
+
+    .navmain{
+        width: 414px;
+        background-color: #F2F2F2;
+        font-size: 16px;
+        visibility: hidden;
+    }
+
+    #search input{
+        width: 250px;
+        height: 40px;
+        transform: translate(3px)
+    }
+
+    #search{
+        transform: translateY(-2820px);
+    }
+
+    #search svg{
+        transform: translateY(16px)
+    }
+
+    #end{
+        width: 40%;
+        height: 40%;
+        padding-bottom: 15px;
+        padding-right: 10px;
+    }
+
+    footer small{
+        padding-bottom: 0px;
+        display: block;
+    }
+
+    footer h3{
+        visibility: hidden;
+    }
+
+    menu{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    footer{
+        background-color: white;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    body{
+        width: 768px;
+    }
+
+    h1{
+        font-family:'Bebas Neue';
+        background-color: #F2F2F2;
+        Font-weight: bold;
+        text-align: left;
+        padding-left: 10px;
+        font-size: 40px;
+        transform: translateY(60px);
+    }
+
+    .hide{
+        visibility: hidden;
+    }
+
+    #print{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        transform: translate(0px, 75px);  
+    }
+
+    p{
+        font-family: 'Montserrat', regular;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 8px;
+    }
+
+    #top{
+        position: absolute;
+        transform: translate(0px, 20px);
+        background-color: rgb(242,242,242, .75);
+        height: 100px;
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 768px;
+    }
+
+    #top li{
+        transform: translate(0px, 60px);
+    }
+
+    #menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 40px;
+        width: 768px;
+
+    }
+
+    #social menu{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .navmain{
+        width: 414px;
+        background-color: white;
+        font-size: 16px;
+        visibility: visible;
+        width: 768px;
+    }
+
+    .navmain img{
+        width: 20%;
+        height: 20%;
+        padding-right: 10px;
+    }
+
+    .navmain li{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #detail dl{
+        padding: 0%;
+        margin: 0%;
+    }
+
+    #detail dt{
+        grid-column: 1/3; 
+        text-align: center;
+        margin-left: 10px;
+        transform: translateX(260px);
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    #detail dd{
+        display: inline;
+        font-family: 'Montserrat';
+        margin-left: 200px;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    #ingredients h2{
+        text-align: left;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+    }
+
+    #ingredients li{
+        font-family: 'Montserrat';
+        font-size: 16px;
+        padding-bottom: 15px;
+        text-align: left;
+        list-style-type: square;
+    }
+
+    #direction h2{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #medium{
+        display: grid;
+        grid-template-columns: [col1-start] 200px [col2-start] 500px [col2-end];
+        grid-gap: 5px;
+        margin-left: 10px;
+    }
+
+    #direction li{
+        text-align: left;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        padding: 10px;
+        margin-left: 25px;
+        padding-bottom: 20px;
+    }
+
+    aside h2{
+        text-align: center;
+        transform: translateX(200px);
+        font-size: 30px;
+    }
+
+    aside{
+        text-align: left;
+        display: grid;
+        grid-template-columns: [col1-start] 355px [col2-start] 355px [col2-end];
+        background-color:#7ABFBF;
+    }
+
+    aside .menuinfo:nth-of-type(odd){
+        transform: translateY(130px);
+    }
+
+    .menuinfo{
+        background-color: #7ABFBF;
+    }
+
+    .menuinfo img{       
+        width:50%;
+        height:80%;
+    }
+
+    .menuinfo h3{
+        font-size: 25px;
+        text-align: left;
+        padding-left: 15px;
+        transform: translateY(20px);
+    }
+
+    .menuinfo dl{ /*come back to this section to fix*/
+        font-size: 25px;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .menuinfo dt{
+        font-size: 16px;
+        font-family: 'Montserrat';
+    }
+
+    .menuinfo dd{
+        font-size: 16px;
+        font-family: 'Montserrat';
+        font-weight: bold;
+    }
+
+    #food h2{
+        visibility: hidden;
+    }
+
+    #hamburger{
+        visibility: hidden;
+    }
+
+    #logo{
+        transform: translate(-450px, -4px);
+    }
+
+    #avatar{
+        transform: translate(160px, -2925px);
+    }
+
+    .navmain{
+        width: 768px;
+        height: 130px;
+        background-color: white;
+    }
+
+    .navmain ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+    }
+
+    .navmain li a{
+        font-size: 16px;
+        transform: translate(36px, 25px);
+        padding-right: 3px;
+    }
+
+    #foodimgs{
+        transform: translateY(25px);
+    }
+
+    #foodimgs img{
+        padding-left: 20px;
+    }
+
+    #search input{
+        width: 250px;
+        height: 40px;
+    }
+
+    #search{
+        transform: translate(100px, -3475px);
+    }
+
+    #search svg{
+        transform: translateY(16px);
+    }
+
+    #avatar{
+        transform: translate(330px, -3515px);
+    }
+
+    footer small{
+        text-align: center;
+        padding-right: 350px;
+        font-size: 20px;
+    }
+
+    footer h3{
+        visibility: hidden;
+    }
+
+    menu{
+        display: grid;
+        text-align: right;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 400px;
+        transform: translate(0px, 50px);
+    }
+
+    footer h3{
+        visibility: hidden;
+    }
+
+    footer{
+        background-color: white;
+        text-align: center;
+    }
+
+    #end{
+        width: 30%;
+        height: 30%;
+        padding-bottom: 15px;
+        transform: translate(-180px, -30px);
+    }
+
+    .move{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        transform: translate(180px, 50px);
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+
+    body{
+        width: 1280px;
+    }
+
+    h1{
+        background-color: #F2F2F2;
+        text-align: center;
+        padding-top: 0px;
+        transform: translateY(250px);
+    }
+    
+    #tacos {grid-area: image;}
+    #para1 {grid-area: para1;}
+    #para2 {grid-area: para2;}
+
+    #butts{
+        display: grid;
+        padding: 100px;
+        grid-template-areas: 
+        'image image para1 para1'
+        'image image para2 para2';
+    }
+
+    .hide{
+        visibility: hidden;
+    }
+
+    #para1{
+        transform: translate(50px, 90px);
+        font-size: 20px;
+    }
+
+    #para2{
+        transform: translate(50px, -100px);
+        font-size: 20px;
+    }
+
+    #tacos{
+        padding-left: 25px;
+        width: 100%;
+        height: 100%;
+        transform: translate(0px, 100px);
+    }
+
+    #top{
+        display: block;
+        transform: translate(0px, 230px);
+        background-color: white;
+        height: 685px;
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-row: 1fr 1fr 1fr 1fr;
+        width: 120px;
+        border-style: solid;
+        border-color: #EB5428;
+    }
+
+    #top li{
+        transform: translate(0px, 60px);
+        padding: 0px;
+    }
+
+    #print{
+        visibility: hidden;
+    }
+
+    #info p{
+        display:inline;
+    }
+
+    #ingredients h2{
+        text-align: left;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+    }
+
+    #ingredients li{
+        font-family: 'Montserrat';
+        font-size: 16px;
+        padding-bottom: 15px;
+        text-align: left;
+        list-style-type: square;
+    }
+
+    #direction h2{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #medium{
+        display: grid;
+        grid-template-columns: 200px [col1-start] 980px [col2-start];
+        grid-gap: 70px;
+        margin-left: 10px;
+    }
+
+    #direction li{
+        text-align: left;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        padding: 10px;
+        margin-left: 25px;
+        padding-bottom: 20px;
+    }
+
+    #detail{
+        background-color: black;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        grid-auto-flow: row;
+        grid-auto-columns: 1fr;
+    }
+
+    #detail dl{
+        grid-gap: 1px;
+    }
+
+    #detail h2{
+        color:#7ABFBF;
+    }
+
+    #detail dt{
+        color:#7ABFBF;
+
+    }
+
+    #detail dd{
+        color:#7ABFBF;
+    }
+
+    #info{
+        background-color: #F2F2F2;
+    }
+
+    .menuinfo{
+        background-color: #7ABFBF;
+        width: 1280px;
+        display: grid;
+        grid-area: 1;
+        overflow-y: auto;
+        overflow-x: hidden;
+        float: left;
+        width: 417px;
+    }
+
+    .menuinfo img{     
+        width:70%;
+        height:70%;
+    }
+
+    .menuinfo h3{
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .menuinfo dl{ /*come back to this section to fix*/
+        font-size: 25px;
+        text-align: left;
+
+    }
+
+    .menuinfo dt{
+        font-size: 16px;
+        font-family: 'Montserrat';
+    }
+
+    .menuinfo dd{
+        font-size: 16px;
+        font-family: 'Montserrat';
+        font-weight: bold;
+    }
+
+    aside{
+        text-align: left;
+        background-color:#7ABFBF;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+                   "1 2";
+    }
+
+    aside h2{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .navmain{
+        width: 1280px;
+        height: 50px;
+        background-color: white;
+    }
+
+    .navmain nav{
+        width: 675px;
+        padding-right: 10px;
+    }
+
+    .navmain ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+    }
+
+    .navmain li a{
+        font-size: 16px;
+        transform: translate(36px, -47px);
+        padding-right: 3px;
+    }
+
+    #foodimgs{
+        transform: translateY(25px);
+    }
+
+    #foodimgs img{
+        transform: translateY(-80px);
+        padding-left: 20px;
+        width: 5%;
+        height: 5%;
+    }
+
+    #menu{
+        width: 1280px;
+        height: 70px;
+        background-color: white;
+    }
+
+    #logo{
+        transform: translateX(-765px);
+        width: 100%;
+        height: 100%;
+    }
+
+    #search input{
+        width: 250px;
+        height: 40px;
+    }
+
+    #search{
+        transform: translate(10px, -2550px);
+    }
+
+    #search svg{
+        transform: translateY(16px);
+    }
+
+    #avatar{
+        transform: translate(550px, -2730px);
+    }
+
+    footer small{
+        text-align: center;
+        padding-right: 350px;
+        font-size: 20px;
+        transform: translate(-120px, -260px);
+    }
+
+    footer menu{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 35px;
+        transform: translate(-50px, 90px);
+        width: 600px;
+    }
+
+    footer h3{
+        visibility: hidden;
+    }
+
+    footer{
+        background-color: white;
+        text-align: center;
+    }
+
+    #end{
+        width: 20%;
+        height: 20%;
+        transform: translate(-480px, 10px);
+    }
+
+    .move{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        transform: translate(283px, 80px);
+        grid-gap: 35px;
+        width: 600px;
+    }
+}
